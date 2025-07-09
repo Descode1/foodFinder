@@ -21,7 +21,7 @@ services:
     restart: always
     environment:
       DB_NAME: foodfinder
-      MONGO_INITBD_DATABASE: foodfinder
+      MONGO_INITDB_DATABASE: foodfinder
     ports: 
       - 27017:27017
     volumes:
