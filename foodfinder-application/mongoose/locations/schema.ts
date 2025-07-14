@@ -3,7 +3,7 @@ import { InferSchemaType, Schema } from "mongoose";
 
 export const LocationSchema: Schema = new Schema<LocationType>({
     address:{
-        type: "string",
+        type: "String",
         required: true
     },
     street: {
